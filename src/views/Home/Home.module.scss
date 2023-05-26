@@ -1,0 +1,20 @@
+.list {
+  list-style: none;
+
+  button {
+    margin-right: 5px;
+    margin-bottom: 10px;
+  }
+}
+
+.listContainer {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #fff;
+}
+
+.listHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

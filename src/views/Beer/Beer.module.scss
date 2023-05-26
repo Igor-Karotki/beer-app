@@ -1,0 +1,94 @@
+.beerPreview {
+  padding: 0;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 16px;
+  background-color: white;
+  border-bottom: 1px solid #fafafa;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px,
+  rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+  rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  .imageContainer {
+    position: relative;
+
+    .beerImage {
+      border-radius: 16px;
+      width: 100%;
+    }
+
+    .highlights {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 20px;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.8);
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+
+      &Text {
+        display: flex;
+        gap: 5px;
+        align-items: flex-start;
+        flex-direction: column;
+        flex: 1;
+
+        .region {
+          color: #9fa0a0;
+          font-size: 15px;
+        }
+      }
+
+      &Info {
+        display: flex;
+        gap: 5px;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-right: 10px;
+
+        .website {
+          text-decoration: none;
+          color: greenyellow;
+          font-size: 21px;
+        }
+      }
+    }
+  }
+
+  .description {
+    margin: 10px;
+    padding: 15px;
+
+    .reviews {
+      color: rgb(251, 173, 18);
+      margin-bottom: 5px;
+      font-weight: 600;
+    }
+
+    .type {
+      background-color: rgb(77, 77, 77);
+      padding: 8px;
+      color: white;
+      margin-right: 7px;
+      border-radius: 4px;
+    }
+
+    &Text {
+      margin: 10px 0;
+      color: gray;
+      font-size: 1rem;
+      font-style: italic;
+    }
+  }
+
+  h2 {
+    font-size: 20px;
+    color: white;
+    margin: 0;
+  }
+}
+
+
